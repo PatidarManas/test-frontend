@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Entry from './component/entrypage';
+import Home from './component/home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div className='head'><h1>Welcome to demo site</h1><span>you can create a patient ,see all patients details,delete a single patient</span>
+    <span>patient details will only be added if email , contact no. and pincode are in correct format</span>
+      </div>
+    <Entry></Entry>
+    <Home></Home> 
+    </>
+      
+    
   );
 }
 

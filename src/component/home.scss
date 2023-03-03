@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.home{
+    .table-up{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14% 14% ;
+    }
+    .data{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14% 14%  ;
+        .user{
+            width: 90%;
+            overflow: hidden;
+        }
+        button{
+            border: 0;
+            color: white;
+            background-color: black;
+            font-size: 18px;
+            width: 50px;
+            font-weight: 200;
+            cursor: pointer;
+            border-radius: 2px;
+            height: 25px;
+        }
+    }
+}
